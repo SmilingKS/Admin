@@ -1,0 +1,30 @@
+.login-container{
+  max-width:400px;
+  margin:50px auto;
+  background: #f4f4f4;
+  border-radius:5px;
+  text-align:center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.lgoin-form input{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-form button{
+  width: 100%;
+  padding:12px;
+  color:white;
+  border:none;
+  font-weight: bold;
+  cursor:pointer;
+}
+.login-form button:hover{
+  background-color:#005fa3;
+}
+.error{
+  color:red;
+  font-size:0.9em;
+}

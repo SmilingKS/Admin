@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import AddStudent from './pages/AddStudent';
 import StudentList from './pages/StudentList';
 import Gallery from './pages/Gallery';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -35,13 +36,14 @@ function App() {
             },
           }}
         />
-        
+
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
             <Route path="/add-student" element={<AddStudent />} />
             <Route path="/students" element={<StudentList />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path='/login' element={<Login />} />
           </Route>
         </Routes>
       </div>
